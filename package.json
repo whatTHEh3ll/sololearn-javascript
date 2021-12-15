@@ -1,0 +1,63 @@
+{
+  "name": "Sololearn",
+  "version": "1.0.0",
+  "description": "sololearn javascript refresher",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+      "build": "parcel build index.html confirm.html prompt.html date_interval.html dom-select-elem.html dom-family-nodes.html dom-changing-elem.html",
+    "if": "node if.js",
+    "if:false": "node false.js",
+    "else": "node else.js",
+    "if:else": "node if_else.js",
+    "switch": "node switch.js",
+    "for:loop": "node forloop.js",
+    "switch:break": "node switch_breakjs",
+    "default": "node default.js",
+    "for:loop:2": "node forloop_2.js",
+    "for:loop:3": "node forloop_3.js",
+    "for:loop:4": "node forloop_4.js",
+    "for:increment": "node increment.js",
+    "while": "node while_loop.js",
+    "do_while": "node do_while.js",
+    "break:statement": "node break_statement.js",
+    "break:continue": "node break_continue.js",
+    "string:concat": "node string_concatenation.js",
+    "func01": "node func01.js",
+    "func02": "node func02.js",
+    "func03": "node func03.js",
+    "func04": "node func04.js",
+    "func05": "node func05.js",
+    "object:prop:1": "node object_properties.js",
+    "object:prop:2": "node object_properties_2.js",
+    "object:method": "node object_method.js",
+    "object:constructor": "node object_constructor.js",
+    "object:initializer": "node object_initializer.js",
+    "object:method:constructor": "node object_method_constructor.js",
+    "object:constructor:2": "node object_method_constructor_2.js",
+    "object:array:1": "node object_array.js",
+    "object:array:2": "node object_array_2.js",
+    "object:array:create": "node object_array_create.js",
+    "object:array:literal": "node object_array_literal.js",
+    "object:array:associative": "node object_array_associative.js",
+    "object:math": "node object_math.js",
+    "object:math:method": "node object_math_method.js",
+    "set:interval": "node set_interval.js",
+    "date:one": "node date_one.js"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.6.1",
+    "dotenv": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "typescript": "4.4.4"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
+}
