@@ -3,7 +3,7 @@ body {
  
 }
 
-.container {
+.maib {
 width: 100%; /* this make container fluid*/
 height: auto;
 background-color: #FFC; /* this make content background-color*/
@@ -15,5 +15,6 @@ margin-left: auto; /* this make content center*/
 a {
   font-size: 25px;
 }
+
 
 /*# sourceMappingURL=/src.a2b27638.css.map */

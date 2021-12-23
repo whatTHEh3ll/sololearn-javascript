@@ -1,0 +1,10 @@
+<div id ="demo">some content</div>
+
+<script>
+var p = document.createElement("p");
+var node = document.createTextNode("Some new text");
+p.appendChild(node);
+
+var div = document.getElementById("demo");
+div.appendChild(p);
+</script>

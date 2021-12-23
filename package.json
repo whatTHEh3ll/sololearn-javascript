@@ -5,7 +5,18 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-      "build": "parcel build index.html confirm.html prompt.html date_interval.html dom-select-elem.html dom-family-nodes.html dom-changing-elem.html",
+    "build": "parcel build index.html hello_world.html confirm.html prompt.html date_interval.html dom-select-elem.html dom-family-nodes.html dom-changing-elem.html animation.html event-pop-up.html event-load.html event-handler.html image-slider.html form-validation.html",
+    "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx}\"",
+    "helloworld": "node hello_world.js",
+    "operator:add": "node operator_arithmetic.js",
+    "operator:multiplier": "node operator_multiplier.js",
+    "operator:division": "node operator_division.js",
+    "operator:modulus": "node operator_modulus.js",
+    "var": "node var.js",
+    "var:2": "node var_2.js",
+    "var:name": "node var_name.js",
+    "var:string": "node var_string.js",
+    "comment": "node comment.js",
     "if": "node if.js",
     "if:false": "node false.js",
     "else": "node else.js",
@@ -51,7 +62,13 @@
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
-    "typescript": "4.4.4"
+    "typescript": "4.4.4",
+    "prettier": "latest",
+    "eslint": "latest",
+    "babel-eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "prettier-eslint-cli": "latest"
   },
   "resolutions": {
     "@babel/preset-env": "7.13.8"
