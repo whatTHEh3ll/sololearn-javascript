@@ -54,9 +54,23 @@
     "object:math": "node object_math.js",
     "object:math:method": "node object_math_method.js",
     "set:interval": "node set_interval.js",
-    "date:one": "node date_one.js"
+    "date:one": "node date_one.js",
+    "es6:let": "node es6_let.js",
+    "es6:let:loop": "node es6_let_loop.js",
+    "es6:letitbe": "node let_it_be.js",
+    "es6:template:literal": "node es6_template_literal.js",
+    "es6:template:two": "node es6_template_literal_2.js",
+    "es6:loop": "node es6_loop.js",
+    "es6:forin:loop": "node es6_forinloop.js",
+    "es6:forof:loop": "node es6_for_of_loop.js",
+    "es6:forof:loop2": "node es6_for_of_loop_2.js",
+    "es6:function": "node es6_function.js",
+    "es6:function:foreach": "node es6_function_foreach.js",
+    "es6:function:params": "node es6_function_param.js",
+    "es6:function:exercise": "node es6_function_exercise.js",
+    "es6:object": "node es6_object.js"
   },
-  "dependencies": {
+   "dependencies": {
     "parcel-bundler": "^1.6.1",
     "dotenv": "latest"
   },
