@@ -7,20 +7,20 @@
     "start": "parcel index.html --open",
     "build": "parcel build index.html hello_world.html confirm.html prompt.html date_interval.html dom-select-elem.html dom-family-nodes.html dom-changing-elem.html animation.html event-pop-up.html event-load.html event-handler.html image-slider.html form-validation.html",
     "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx}\"",
-    "helloworld": "node hello_world.js",
-    "operator:add": "node operator_arithmetic.js",
-    "operator:multiplier": "node operator_multiplier.js",
-    "operator:division": "node operator_division.js",
-    "operator:modulus": "node operator_modulus.js",
-    "var": "node var.js",
-    "var:2": "node var_2.js",
-    "var:name": "node var_name.js",
-    "var:string": "node var_string.js",
-    "comment": "node comment.js",
-    "if": "node if.js",
-    "if:false": "node false.js",
-    "else": "node else.js",
-    "if:else": "node if_else.js",
+    "helloworld": "node hello_world/hello_world.js",
+    "operator:add": "node operators/operator_add.js",
+    "operator:multiplier": "node operators/operator_multiply.js",
+    "operator:division": "node operators/operator_division.js",
+    "operator:modulus": "node operators/operator_modulus.js",
+    "var": "node variables/var.js",
+    "var:2": "node variables/var_2.js",
+    "var:name": "node variables/var_name.js",
+    "var:string": "node variables/var_string.js",
+    "comment": "node variables/comment.js",
+    "if": "node conditionals_and_loops/if.js",
+    "if:false": "node conditionals_and_loops/false.js",
+    "else": "node conditionals_and_loops/else.js",
+    "if:else": "node conditionals_and_loops/if_else.js",
     "switch": "node switch.js",
     "for:loop": "node forloop.js",
     "switch:break": "node switch_breakjs",
@@ -70,19 +70,28 @@
     "es6:function:exercise": "node es6_function_exercise.js",
     "es6:object": "node es6_object.js"
   },
-   "dependencies": {
+  
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run format",
+      "...": "..."
+    }
+  },
+
+  "dependencies": {
     "parcel-bundler": "^1.6.1",
     "dotenv": "latest"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
-    "typescript": "4.4.4",
-    "prettier": "latest",
-    "eslint": "latest",
     "babel-eslint": "latest",
+    "eslint": "latest",
     "eslint-config-prettier": "latest",
     "eslint-plugin-prettier": "latest",
-    "prettier-eslint-cli": "latest"
+    "husky": "^7.0.4",
+    "prettier": "latest",
+    "prettier-eslint-cli": "latest",
+    "typescript": "4.4.4"
   },
   "resolutions": {
     "@babel/preset-env": "7.13.8"
