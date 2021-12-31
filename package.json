@@ -55,6 +55,7 @@
     "object:math:method": "node objects/object_math_method.js",
     "set:interval": "node set_interval.js",
     "date:one": "node date_one.js",
+    "es6:basic:let": "node es6/basic_let.js",
     "es6:let": "node es6/es6_let.js",
     "es6:let:loop": "node es6/es6_let_loop.js",
     "es6:letitbe": "node es6/let_it_be.js",
