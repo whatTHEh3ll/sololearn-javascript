@@ -4,9 +4,9 @@ jobs:
   build:
     name: Cred Checker
     runs-on: ubuntu-latest
-    steps:        
-       - uses: actions/checkout@master
-       - name: Haydn trufflehog-actions-scan
-         uses: haydz/trufflehog-actions-scan@master
-         with:
-           scanArguments: "--regex --max_depth=10  --rules /regexes.json"
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: trufflehog-actions-scan
+      uses: edplato/trufflehog-actions-scan@master
