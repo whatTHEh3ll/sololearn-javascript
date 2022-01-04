@@ -71,17 +71,15 @@
     "es6:function:exercise": "node es6/es6_function_exercise.js",
     "es6:object": "node es6/es6_object.js"
   },
-  
   "husky": {
     "hooks": {
       "pre-push": "npm run format",
       "...": "..."
     }
   },
-
   "dependencies": {
-    "parcel-bundler": "^1.6.1",
-    "dotenv": "latest"
+    "dotenv": "latest",
+    "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
@@ -91,6 +89,7 @@
     "eslint-plugin-prettier": "latest",
     "husky": "^7.0.4",
     "prettier": "latest",
+    "prettier-eslint": "^13.0.0",
     "prettier-eslint-cli": "latest",
     "typescript": "4.4.4"
   },

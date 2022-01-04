@@ -1,5 +1,5 @@
 function myFunction() {
-	console.log("this is func1")
+    console.log("this is func1");
 }
 
 myFunction();

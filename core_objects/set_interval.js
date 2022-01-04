@@ -1,4 +1,4 @@
 function myAlert() {
-	console.log("Hi");
+    console.log("Hi");
 }
 setInterval(myAlert, 3000);

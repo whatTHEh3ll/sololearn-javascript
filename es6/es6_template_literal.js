@@ -1,3 +1,3 @@
-let name = 'David';
+let name = "David";
 let msg = `Welcome ${name}!`;
 console.log(msg);

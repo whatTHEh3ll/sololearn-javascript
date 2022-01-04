@@ -1,4 +1,4 @@
 var i = 1;
-for (; i<=5; i++) {
-	console.log(i + "forloop 2");
+for (; i <= 5; i++) {
+    console.log(i + "forloop 2");
 }

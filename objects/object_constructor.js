@@ -1,7 +1,7 @@
-function person (name, age, color) {
-  this.name = name;
-  this.age = age;
-  this.color = color;
+function person(name, age, color) {
+    this.name = name;
+    this.age = age;
+    this.color = color;
 }
 
 var p1 = new person("John", 42, "green");

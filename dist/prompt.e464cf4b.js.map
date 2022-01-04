@@ -1,1 +1,1 @@
-{"version":3,"sources":["src/prompt.js"],"names":["user","prompt","alert"],"mappings":"AAAA,IAAIA,IAAI,GAAGC,MAAM,CAAC,wBAAD,CAAjB;AACAC,KAAK,CAACF,IAAD,CAAL","file":"prompt.e464cf4b.js","sourceRoot":"..","sourcesContent":["var user = prompt(\"Please enter your name\");\nalert(user);"]}
+{"version":3,"sources":["src/prompt.js"],"names":["user","prompt","alert"],"mappings":"AAAA,IAAIA,IAAI,GAAGC,MAAM,CAAC,wBAAD,CAAjB;AACAC,KAAK,CAACF,IAAD,CAAL","file":"prompt.e464cf4b.js","sourceRoot":"..","sourcesContent":["var user = prompt(\"Please enter your name\");\nalert(user);\n"]}

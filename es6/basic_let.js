@@ -1,4 +1,4 @@
 if (true) {
-	let name = 'Jack';
+    let name = "Jack";
 }
 console.log(name);
