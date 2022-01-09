@@ -4,7 +4,7 @@
   "description": "sololearn javascript refresher",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
+    "start": "parcel index.html",
     "build": "parcel build index.html hello_world.html confirm.html prompt.html date_interval.html dom-select-elem.html dom-family-nodes.html dom-changing-elem.html animation.html event-pop-up.html event-load.html event-handler.html image-slider.html form-validation.html",
     "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx}\"",
     "helloworld": "node hello_world/hello_world.js",
