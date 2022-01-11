@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Page Title</title>
-	</head>
-	<body>
-		<button id="demo">Click Me</button>
-		<script>
+
+<head>
+	<title>Page Title</title>
+</head>
+
+<body>
+	<button id="demo">Click Me</button>
+	<script>
 		//calling the function in window.onload to make sure the HTML is loaded
-      window.onload = function() {
-	       var x = document.getElementById('demo');
-	       x.onclick = function () {
-		        document.body.innerHTML = Date();
-	       }
-      };
-		</script>
-	</body>
+		window.onload = function () {
+			var x = document.getElementById('demo');
+			x.onclick = function () {
+				document.body.innerHTML = Date();
+			}
+		};
+	</script>
+</body>
+
 </html>

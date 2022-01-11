@@ -9,7 +9,7 @@
   "scripts": {
     "start": "parcel index.html",
     "prebuild-dev": "shx rm -rf dist/*",
-    "build-dev": "parcel build ./src/index.html --no-minify --public-url ./",
+    "build-dev": "parcel build index.html --no-minify --public-url ./",
     "prebuild": "shx rm -rf dist/*",
     "build": "parcel build index.html hello_world.html confirm.html prompt.html date_interval.html dom-select-elem.html dom-family-nodes.html dom-changing-elem.html animation.html event-pop-up.html event-load.html event-handler.html image-slider.html form-validation.html --public-url ./",
     "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
