@@ -1,1 +1,0 @@
-{"version":3,"sources":["src/prompt.js"],"names":["user","prompt","alert"],"mappings":";AAAA,IAAIA,EAAOC,OAAO,0BAClBC,MAAMF","file":"prompt.f5f4aebc.js","sourceRoot":"..","sourcesContent":["var user = prompt(\"Please enter your name\");\nalert(user);"]}

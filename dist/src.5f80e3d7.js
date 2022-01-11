@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"H99C":[function(require,module,exports) {
 "use strict";require("./styles.css"),document.getElementById("app").innerHTML='\n<h1>Hello Vanilla!</h1>\n<div>\n  We use the same configuration as Parcel to bundle this sandbox, you can find more\n  info about Parcel \n  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.\n</div>\n';
 },{"./styles.css":"D9Nj"}]},{},["H99C"], null)
-//# sourceMappingURL=/src.5f80e3d7.js.map
+//# sourceMappingURL=src.5f80e3d7.js.map

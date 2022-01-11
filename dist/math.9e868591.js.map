@@ -1,1 +1,0 @@
-{"version":3,"sources":["src/math.js"],"names":["n","prompt","answer","Math","sqrt","alert"],"mappings":";AAAA,IAAIA,EAAIC,OAAO,iBAAkB,IAC7BC,EAASC,KAAKC,KAAKJ,GACvBK,MAAM,eAAiBL,EAAI,OAASE","file":"math.9e868591.js","sourceRoot":"..","sourcesContent":["var n = prompt(\"Enter a number\", \"\");\nvar answer = Math.sqrt(n);\nalert(\"The root of \" + n + \" is \" + answer);"]}

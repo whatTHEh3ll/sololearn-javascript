@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "sololearn javascript refresher",
   "main": "index.html",
+  "engines": {
+    "node": ">=16.13.1"
+  },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html hello_world.html confirm.html prompt.html date_interval.html dom-select-elem.html dom-family-nodes.html dom-changing-elem.html animation.html event-pop-up.html event-load.html event-handler.html image-slider.html form-validation.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./src/index.html --no-minify --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build index.html hello_world.html confirm.html prompt.html date_interval.html dom-select-elem.html dom-family-nodes.html dom-changing-elem.html animation.html event-pop-up.html event-load.html event-handler.html image-slider.html form-validation.html --public-url ./",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose",
     "format": "prettier-eslint --write \"{,!(node_modules)/**/}*.{js,jsx}\"",
     "helloworld": "node hello_world/hello_world.js",
     "operator:add": "node operators/operator_add.js",
@@ -73,25 +80,26 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run format",
+      "pre-push": "yarn run format",
       "...": "..."
     }
   },
   "dependencies": {
     "dotenv": "latest",
-    "parcel-bundler": "^1.6.1"
+    "parcel-bundler": "^1.6.1",
+    "push-dir": "latest"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
-    "babel-eslint": "latest",
-    "eslint": "latest",
-    "eslint-config-prettier": "latest",
-    "eslint-plugin-prettier": "latest",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "husky": "^7.0.4",
-    "prettier": "latest",
+    "prettier": "^2.5.1",
     "prettier-eslint": "^13.0.0",
-    "prettier-eslint-cli": "latest",
-    "typescript": "4.4.4"
+    "prettier-eslint-cli": "^5.0.1",
+    "shx": "latest"
   },
   "resolutions": {
     "@babel/preset-env": "7.13.8"
