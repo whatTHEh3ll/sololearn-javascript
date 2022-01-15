@@ -1,19 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DomFamilyNodes</title>
+    </head>
 
-<body>
-  <div id="demo">
-    <p>some text</p>
-    <p>some other text</p>
-  </div>
+    <body>
+        <div id="demo">
+            <p>some text</p>
+            <p>some other text</p>
+        </div>
 
-  <script>
-    var a = document.getElementById("demo");
-    var arr = a.childNodes;
-    for (var x = 0; x < arr.length; x++) {
-      arr[x].innerHTML = "new text";
-    }
-  </script>
-
-</body>
-
+        <script>
+            var a = document.getElementById("demo");
+            var arr = a.childNodes;
+            for (var x = 0; x < arr.length; x++) {
+                arr[x].innerHTML = "new text";
+            }
+        </script>
+    </body>
 </html>

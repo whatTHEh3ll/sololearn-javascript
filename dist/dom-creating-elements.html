@@ -1,1 +1,19 @@
-<div id="demo">some content</div><script>var e=document.createElement("p"),t=document.createTextNode("Some new text");e.appendChild(t);var d=document.getElementById("demo");d.appendChild(e);</script>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DomCreatingElements</title>
+    </head>
+
+    <body>
+        <div id="demo">some content</div>
+
+        <script>var p = document.createElement("p");
+var node = document.createTextNode("Some new text");
+p.appendChild(node);
+var div = document.getElementById("demo");
+div.appendChild(p);</script>
+    </body>
+</html>
